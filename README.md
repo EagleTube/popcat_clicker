@@ -8,10 +8,10 @@ Installation : git clone https://github.com/EagleTube/popcat_clicker.git
 
 Before start make sure required modules installed<br>
 pip3 install -r requirements.txt
-
-If ready
-python popcat.py popcat.txt
-And the script will loaded
-CTRL + C to exit
+<br><br>
+If ready<br>
+python popcat.py popcat.txt<br>
+And the script will loaded<br>
+CTRL + C to exit<br><br>
 
 Maybe there will Version 3.0 for another bypassing methods
