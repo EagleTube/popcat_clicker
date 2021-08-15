@@ -6,7 +6,7 @@ Use for send 800 click for 30seconds delay
 Installation : git clone https://github.com/EagleTube/popcat_clicker.git
 
 
-Before start make sure required modules installed
+Before start make sure required modules installed<br>
 pip3 install -r requirements.txt
 
 If ready
