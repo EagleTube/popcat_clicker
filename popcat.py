@@ -1,4 +1,4 @@
-import json, sys, cloudscraper, time, os, colorama, ctypes, datetime
+import json, sys, cloudscraper, time, os, colorama, ctypes, datetime, platform
 from colorama import Fore, Back, Style
 from datetime import date
 from time import gmtime, strftime
@@ -9,7 +9,10 @@ d2 = today.strftime("%B %d, %Y")
 os.system('cls')
 starter = Style.BRIGHT +"Usage : "+ Fore.GREEN +"(example)" + Fore.BLUE + "python popcat.py popcat.txt"
 
-ctypes.windll.kernel32.SetConsoleTitleW(f'POPCAT SPAM Loaded V2.0 | {d2}')
+if platform.system()=='Linux':
+    print('\33]0;POPCAT SPAM Loaded V2.0\a', end='', flush=True)
+else:
+    ctypes.windll.kernel32.SetConsoleTitleW(f'POPCAT SPAM Loaded V2.0 | {d2}')
 
 print(f"""{Style.BRIGHT + Fore.RED}
  ██████╗ ██████╗  █████╗  ██████╗  ██████╗ ███╗   ██╗███████╗ ██████╗ ██████╗  ██████╗███████╗   ██╗ ██████╗ 
