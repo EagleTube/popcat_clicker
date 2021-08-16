@@ -7,7 +7,7 @@ Installation : git clone https://github.com/EagleTube/popcat_clicker.git
 
 
 Before start make sure required modules installed<br>
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 <br><br>
 If ready<br>
 python popcat.py popcat.txt<br>
