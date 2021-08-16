@@ -6,12 +6,13 @@ from time import gmtime, strftime
 today = date.today()
 d2 = today.strftime("%B %d, %Y")
 
-os.system('cls')
 starter = Style.BRIGHT +"Usage : "+ Fore.GREEN +"(example)" + Fore.BLUE + "python popcat.py popcat.txt"
 
 if platform.system()=='Linux':
+    os.system('clear')
     print('\33]0;POPCAT SPAM Loaded V2.0\a', end='', flush=True)
 else:
+    os.system('cls')
     ctypes.windll.kernel32.SetConsoleTitleW(f'POPCAT SPAM Loaded V2.0 | {d2}')
 
 print(f"""{Style.BRIGHT + Fore.RED}
